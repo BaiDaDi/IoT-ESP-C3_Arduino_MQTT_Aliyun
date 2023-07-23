@@ -19,7 +19,7 @@ const char *mqtt_server = "mqtts.heclouds.com";   //onenet 的 IP地址
 const int  port = 1883;                            //端口号
  
 #define mqtt_pubid "7JoFTUCDHc"                   //产品ID
-#define mqtt_devid "demo001" 					  //设备名称
+#define mqtt_devid "demo" 					  //设备名称
 //鉴权信息，token时间戳为2024年，放心使用
 #define mqtt_password "version=2018-10-31&res=products%2F7JoFTUCDHc%2Fdevices%2Fdemo001&et=1705757068&method=md5&sign=x92OnScX%2F%2B5FZAreJBE1kg%3D%3D" 
 
